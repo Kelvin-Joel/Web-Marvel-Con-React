@@ -1,0 +1,47 @@
+.conte_gallery{
+    width: 80%;
+    margin:0 auto 3em;
+}
+.title_gallery_heroes{
+    color: #333;
+    font-size: 2.5em;
+}
+.car_gallery {
+  width: 300px;
+  height: 390px;
+  background-color: #222;
+  padding: 1em;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 1.5em;
+}
+.title_gallery_heroes {
+  width: 100%;
+}
+.img-hereo_gallery {
+  height: 350px;
+  width: 80%;
+}
+.description_personaje{
+    transition: .5s;
+    background-color: #fff;
+    transform: translateY(60px);
+    padding: 1em;
+}
+.car_gallery:hover .description_personaje{
+    transform: translateY(-250px);
+}
+.description_personaje .name_heroe{
+    width: 100px;
+    margin:0 auto;
+    font-size: 1.1em;
+    padding: .3em .8em;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+    top: -35px;
+}
+.description_personaje .description_heroe{
+    width: 80%;
+    margin:0 auto 1.5em;
+}

@@ -1,0 +1,33 @@
+.conte_movies{
+    width: 90%;
+    margin: 0 auto;
+}
+.title_movies{
+    font-size: 2.5em;
+    width: 100%;
+}
+.car_movie{
+    width: 330px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+.description_movies{
+    background-color: rgba(0,0,0,.9);
+    color: #fff;
+    padding: 1em 1em 2em;
+    position: relative;
+    bottom: 0;
+    top: 100%;
+    transition: .5s;
+    text-align: start;
+}
+.car_movie:hover .description_movies{
+    top: 35%;
+}
+.title_car_movie{
+    font-size: 1.3em;
+    margin-bottom: -.7em;
+}

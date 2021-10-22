@@ -1,0 +1,22 @@
+.about_avengers{
+     margin-bottom: 3em;
+}
+.about_avengers .title_about{
+    width: 100%;
+    font-size: 2.5em;
+}
+.about_avengers .img_about-avengers{
+    height: 450px;
+    width: 400px;
+}
+.about_avengers .about-text_avengers{
+    width: 28em;
+    padding: .7em;
+    text-align: start;
+}
+.about-text_avengers .subtitle_about_avengers{
+    font-size: 2.5em;
+}
+.about-text_avengers p{
+    font-size: 1.1em;
+}
